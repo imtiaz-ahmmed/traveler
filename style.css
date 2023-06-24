@@ -1,0 +1,38 @@
+* {
+  border: 1px solid red;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 900;
+  color: aliceblue;
+  padding: 16px;
+}
+.nav-list {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-list li:hover {
+  color: blue;
+}
+li {
+  list-style: none;
+}
+.button {
+  padding: 16px;
+  background-color: blue;
+  color: azure;
+  border-radius: 20px;
+  font-size: 24px;
+}
