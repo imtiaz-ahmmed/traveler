@@ -1,5 +1,5 @@
 * {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 0;
   padding: 0;
 }
@@ -144,7 +144,6 @@ em {
 }
 .powered-by {
   color: white;
-
   text-align: center;
   padding-bottom: 80px;
 }
