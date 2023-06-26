@@ -6,6 +6,9 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+main {
+  background-color: aliceblue;
+}
 header {
   background-image: url(images/header.jpg);
   height: 100vh;
@@ -63,11 +66,54 @@ button:hover {
   color: white;
   opacity: 0.9;
 }
-.header-title {
+.title {
   font-size: 42px;
   margin-bottom: 30px;
 }
-.header-description {
+.description {
   font-size: 20px;
   margin-bottom: 30px;
+}
+.main-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 80px 40px;
+}
+.strong-word {
+  color: rgb(1, 155, 175);
+}
+em {
+  font-weight: 600;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 40px;
+}
+.card {
+  text-align: center;
+  width: 40%;
+  height: 450px;
+  padding: 30px;
+}
+.card-img {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+}
+.card-title {
+  font-size: 22px;
+  margin: 10px 0px;
+  color: rgb(136, 170, 237);
+}
+.card-description {
+  margin: 10px 0px;
+  padding: 4px;
+}
+
+.card-link {
+  text-decoration: none;
 }
