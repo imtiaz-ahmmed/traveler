@@ -1,5 +1,5 @@
 * {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   margin: 0;
   padding: 0;
 }
@@ -116,4 +116,35 @@ em {
 
 .card-link {
   text-decoration: none;
+}
+.footer-top {
+  background-color: rgb(51, 50, 50);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.footer-buttom {
+  background-color: black;
+}
+
+.logo {
+  font-size: 50px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 20px;
+}
+.footer-description {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  padding: 120px 0 40px;
+}
+.powered-by {
+  color: white;
+
+  text-align: center;
+  padding-bottom: 80px;
 }
